@@ -13,6 +13,45 @@
   }
 }
 
+.Navbar-title span {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: blue;
+
+}
+
+.Content {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  height: auto;
+  
+}
+.Form-yt {
+  display: flex;
+  width: 50%;
+  border: 0.3rem inset blue;
+  margin: 0.1rem;
+  text-align: center;
+
+}
+
+.Yt-submit {
+  position: relative;
+  background-color: blue;
+  color: white;
+  border: 0.3rem solid blue;
+  margin: 0.1rem;
+  width: 7rem;
+  font-size: 1.5rem;
+}
+
+
+.Widget {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +67,12 @@
   color: #61dafb;
 }
 
+.Card-Header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +80,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* footer */
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: white;
+  margin: 0.5rem;
+  justify-content: center;
+  display: inline-block;
+}
+
+
+footer .social a:hover,
+footer .links a:hover {
+  color: yellow;
+}
+
+footer .links a {
+  color: white;
+  margin: 1rem;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .credit p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
