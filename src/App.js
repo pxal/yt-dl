@@ -1,12 +1,18 @@
-
 import './App.css';
+import Intro from './Component/Intro';
+import Body from './Component/Body';
+import Footer from './Component/Footer';
 
 function App() {
   return (
+  
     <div>
-     <h1>Hallo</h1>
+      <Intro />
+      <Body />
+      <Footer />
     </div>
   );
 }
+
 
 export default App;
