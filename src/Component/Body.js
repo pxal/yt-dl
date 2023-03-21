@@ -27,7 +27,7 @@ function Body() {
 
 
     
-    <iframe id="Widget" 
+    <iframe title="frame-dl" className="Widget" 
     src={`https://convert2mp3s.com/api/widget?url=${currentLink}` }
     allowtransparency="true" 
     scrolling="yes" 
